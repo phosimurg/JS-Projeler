@@ -1,0 +1,47 @@
+:root{
+
+    --main-color:#2980b9;
+    --main-color-light:#4ea0d6;
+    --accent-color:#f39c12;
+    --accent-color-light:#f7bc5e;
+
+}
+
+
+.gorevliste{
+    list-style: none;
+    min-width: 40%;
+    
+
+}
+
+.gorevtanim{
+    flex: 1;
+}
+
+.listeeleman{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    background-color: whitesmoke;
+    padding: 0.1rem;
+}
+
+.btngorev{
+    background-color: var(--accent-color);
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    margin: 0.1rem;
+}
+
+.btngorev.BTNsil{
+    background-color: red;
+}
+
+.far{
+    pointer-events: none;
+}
+
